@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majra Mališević - Nakit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+        }
+        footer {
+            margin-top: auto;
+            background-color: #222;
+            color: #fff;
+        }
+        .navbar {
+            background-color: #d4af37;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .navbar-toggler-icon {
+            background-color: #fff;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card-body {
+            background-color: #fff;
+            padding: 1.5rem;
+        }
+        .card-text {
+            color: #333;
+            font-weight: bold;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card-img-top:hover {
+            transform: scale(1.05);
+        }
+        .hero-section {
+            background-color: #4caf50; 
+            color: #fff;
+            padding: 5rem 0;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+        }
+        .footer-container {
+            background-color: #333;
+            padding: 2rem;
+            color: white;
+        }
+        .footer-container p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Majra Mališević</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Početna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kolekcija.html">Kolekcija</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inspiracija.html">Inspiracija</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="novi-drop.html">Novi Drop</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section text-center mb-5">
+        <h1>Dobrodošli na stranicu Majre Mališević</h1>
+        <p class="lead">Inspirativni nakit za svaku priliku.</p>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="slike/1.jpg" class="card-img-top" alt="Kolekcija 1">
+                    <div class="card-body">
+                        <p class="card-text">Kolekcija 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="slike/2.jpg" class="card-img-top" alt="Kolekcija 2">
+                    <div class="card-body">
+                        <p class="card-text">Kolekcija 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="slike/3.jpg" class="card-img-top" alt="Kolekcija 3">
+                    <div class="card-body">
+                        <p class="card-text">Kolekcija 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="slike/4.jpg" class="card-img-top" alt="Kolekcija 4">
+                    <div class="card-body">
+                        <p class="card-text">Kolekcija 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container text-center p-3">
+            <p>&copy; 2024 Majra Mališević</p>
+        </div>
+    </footer>
+
+</body>
+</html>
